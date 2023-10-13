@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethany's Pie Shop</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" width="150" height="47" alt="Bethany's pie shop company logo" </li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <div class="logo-container"><img src="images/bethanylogo.png" alt="Bethany's pie shop logo"
+            width="120" heigt="140"></div>
+        </aside>
+    </main>
+    <article>
+        <h1>Welcome to Bethany's Pie Shop</h1>
+        <picture>
+            <source media="(main-width:1000px)"
+            srcset="images/bethany-700.jpg">
+            <img src="images/bethanysmall.jpg" alt="Bethany's Pie Shop">
+        </picture>
+        <h2>Our history</h2>
+        <p>For many years, Bethany has been baking the most delicious pies at her home.</p>
+        <p>In 2013, we opened our first store in Brussels in a cosy little street
+            near the Grand Market. People from all over the world fell in love with the
+            soft cakes, spicy apple pies etc. The store became a success in no time.
+        </p>
+        <div id="calculator">
+            <h2>Order Calculator</h2>
+            <table>
+                <thead>
+                    <trth>Type</trth>
+                    <trth>Price</trth>
+                    <trth>Quantity</trth>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>$12.00</td>
+                        <td><input type="number" id="apple" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Cherry</td>
+                        <td>$15.00</td>
+                        <td><input type="number" id="cherry" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Strawberry</td>
+                        <td>$18.00</td>
+                        <td><input type="number" id="Strawberry" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total:</td>
+                        <td id="total-container">$0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+    <footer>
+        <address>
+            <h2>Bethany's Pie Shop</h2>
+            <p>Bakery Street 555</p>
+            <p>Brussels, Belgium</p>
+        </address>
+        <p>All right reserved &copy; Bethany's Pie Shop</p>
+        <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
+    </footer>
+<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>
